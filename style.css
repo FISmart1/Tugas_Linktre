@@ -1,0 +1,42 @@
+body {
+  background-image: url(img/image-from-rawpixel-id-13552210-jpeg.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+    width: 100%;
+    padding: 50px;
+    margin-top: 10%;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background: transparent; /* Warna putih semi-transparan */
+    backdrop-filter: blur(10px); /* Efek blur */
+    -webkit-backdrop-filter: blur(10px); /* Untuk Safari */
+}
+
+.text-center {
+    margin-bottom: 40px;
+    color: white;
+}
+
+h1 {
+    font-size: 1.8rem;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.btn {
+    width: 50%;
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+}
